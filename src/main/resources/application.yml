@@ -1,0 +1,14 @@
+server:
+ port: 9090
+
+spring:
+ application:
+   name: RevatureProductApp
+
+company:
+ companyname: RevatureIndiaPvtLimited
+ companylocation: Bangalore
+ companyaddress: electroniccity
+management: endpoints:  enabled-by-default: true
+ health:
+  enabled: true
